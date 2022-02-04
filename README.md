@@ -1,5 +1,6 @@
-# Guida per la scrittura di codice in FAUST
-Repository di Faust (GRAME) passo dopo passo, con finalità di studio del linguaggio di programmazione.
+# Guida per la scrittura di codice in FAUST by Luca Spanedda
+### version forked by Giovanni Michelangelo D'Urso 
+Repository di Faust (GRAME) step by step, con finalità di studio del linguaggio di programmazione.
 Tutti i file .dsp sono sia guida che operativi.
 
 
