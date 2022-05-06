@@ -1,11 +1,11 @@
-// FASORE con RESET della fase
+//Fasore con reset della fase
 
 //Importo la libreria
 import("stdfaust.lib");
 
 /* Ora che abbiamo parlato della generazione del fasore
 raccogliamo i dati esposti fino ad ora per generare un segnale
-non convenzionale: un Fasore con un reset della fase */
+non convenzionale: un fasore con un reset della fase */
 
 but = button("[1]gate segnale");
 
