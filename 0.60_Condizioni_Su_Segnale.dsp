@@ -12,7 +12,7 @@ a quella soglia di valore */
 //Importo la libreria
 import("stdfaust.lib");
 
-// tutto il segnale sopra la soglia entra in clipping 
+// Tutto il segnale sopra la soglia entra in clipping 
 // e viene dunque tagliato.
 // (a) determina il livello di amplificazione dell'ingresso
 // (v) determina la soglia minima e massima
