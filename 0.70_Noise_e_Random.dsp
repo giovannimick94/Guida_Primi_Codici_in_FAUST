@@ -6,13 +6,14 @@ ma invece che creare un processo di accumulazione,
 bisogna creare un sistema che generi un numero casuale
 per ogni campione.*/
 
-// Importo la libreria standard
+// Importiamo la libreria standard
 import("stdfaust.lib");
 
 // NOISE 
 // in questo caso passiamo un valore di seed (seme) 
 // per generare sulla base di questo un numero casuale
 noise(seed) = (+(seed)~*(1103515245))/2147483647.0;
+
 // NOISE A FREQUENZA VARIABILE
 // in questo caso invece oltre che al seed
 // nella retroazione è stato aggiunto un valore di ritardo
