@@ -6,23 +6,23 @@ import("stdfaust.lib");
 due_pigreco = 6.2831853071795;
 
 // Generazione oscillatore sinusoidale:
-// creo una funzione che sottragga i numeri interi lasciando i decimali
+// creiamo una funzione che sottragga i numeri interi lasciando i decimali
 decimale(x) = x-int(x);
-// uso un argomento alla funzione per stabilire la frequenza nel process
-// e uso un secondo argomento per stabilire l'ampiezza
-// e creo la funzione dell'oscillatore sinusoidale
+// dichiariamo un argomento alla funzione per stabilire la frequenza nel process
+// e un secondo argomento per stabilire l'ampiezza.
+// Creiamo la funzione dell'oscillatore sinusoidale
 osc(frequenza, ampiezza) = sin((frequenza/ma.SR : (+ : decimale) ~ _ ) 
                                     *due_pigreco) *ampiezza;
             
 // Generazione delle forme d'onda elementari 
 // a partire dalla sintesi additiva.
-// definisco due funzioni: una per la frequenza fondamentale
+// definiamo due funzioni: una per la frequenza fondamentale
 // ed una per l'ampiezza fondamentale:
 // COSTANTI OSCILLATORI
 f = 200;
 a = 0.5;
 
-// applico poi le formule per ricavare le differenti parziali
+// applichiamo poi le formule per ricavare le differenti parziali
 // che designano il timbro della mia forma d'onda:
 
 // SINUSOIDE
