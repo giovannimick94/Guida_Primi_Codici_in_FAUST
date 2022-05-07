@@ -2,10 +2,10 @@
 
 // CLICKS GENERATOR - SAMPLES
 
-/* quando il valore random generato 
+/* Quando il valore random generato 
 dal noise fra -1 e +1 corrisponde ad un numero
 minore di 0. viene generato un impulso in fase negativa.
-Quando corrisponde ad un numero maggiore di 0. 
+Quando il valore corrisponde ad un numero maggiore di 0. 
 viene generato un impulso in fase positiva. 
 Il valore di ampiezza è costante per ogni impulso,
 il rumore determina solo la fase 
